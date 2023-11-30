@@ -27168,6 +27168,8 @@ var _socialProfiles = require("./SocialProfiles");
 var _socialProfilesDefault = parcelHelpers.interopDefault(_socialProfiles);
 var _title = require("./Title");
 var _titleDefault = parcelHelpers.interopDefault(_title);
+var _jokes = require("./Jokes");
+var _jokesDefault = parcelHelpers.interopDefault(_jokes);
 var _profilePng = require("../assets/profile.png");
 var _profilePngDefault = parcelHelpers.interopDefault(_profilePng);
 class App extends (0, _react.Component) {
@@ -27190,14 +27192,14 @@ class App extends (0, _react.Component) {
                     children: "I live in Cebu, Philippines, and code every day."
                 }, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 24,
+                    lineNumber: 25,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "My favorite language is Python and JavaScript."
                 }, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 25,
+                    lineNumber: 26,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27205,13 +27207,13 @@ class App extends (0, _react.Component) {
                     children: "Show Less"
                 }, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 26,
+                    lineNumber: 27,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/App.js",
-            lineNumber: 23,
+            lineNumber: 24,
             columnNumber: 13
         }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27219,12 +27221,12 @@ class App extends (0, _react.Component) {
                 children: "Read More"
             }, void 0, false, {
                 fileName: "src/components/App.js",
-                lineNumber: 30,
+                lineNumber: 31,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "src/components/App.js",
-            lineNumber: 29,
+            lineNumber: 30,
             columnNumber: 13
         }, this);
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27235,60 +27237,65 @@ class App extends (0, _react.Component) {
                     className: "profile"
                 }, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 36,
+                    lineNumber: 37,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                     children: "Hello!"
                 }, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 37,
+                    lineNumber: 38,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "My name is Allan."
                 }, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 38,
+                    lineNumber: 39,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _titleDefault.default), {}, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 39,
+                    lineNumber: 40,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "I'm always looking forward to working on meaningful projects."
                 }, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 40,
+                    lineNumber: 41,
                     columnNumber: 17
                 }, this),
                 bio,
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 42,
+                    lineNumber: 43,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 43,
+                    lineNumber: 44,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 44,
+                    lineNumber: 45,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _socialProfilesDefault.default), {}, void 0, false, {
                     fileName: "src/components/App.js",
-                    lineNumber: 45,
+                    lineNumber: 46,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jokesDefault.default), {}, void 0, false, {
+                    fileName: "src/components/App.js",
+                    lineNumber: 47,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/App.js",
-            lineNumber: 35,
+            lineNumber: 36,
             columnNumber: 13
         }, this);
     }
@@ -27300,7 +27307,7 @@ exports.default = App;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"16pwG","./SocialProfiles":"1RVkN","./Title":"6wotK","../assets/profile.png":"Ubjjs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"16pwG":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"16pwG","./SocialProfiles":"1RVkN","./Title":"6wotK","./Jokes":"azgA9","../assets/profile.png":"Ubjjs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"16pwG":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ec2f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28308,6 +28315,110 @@ class Title extends (0, _react.Component) {
 exports.default = Title;
 
   $parcel$ReactRefreshHelpers$6418.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"azgA9":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$40f0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$40f0.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Joke = ({ joke: { setup, punchline } })=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+        style: {
+            margin: 20
+        },
+        children: [
+            setup,
+            " ",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("em", {
+                children: punchline
+            }, void 0, false, {
+                fileName: "src/components/Jokes.js",
+                lineNumber: 3,
+                columnNumber: 78
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Jokes.js",
+        lineNumber: 3,
+        columnNumber: 47
+    }, undefined);
+_c = Joke;
+class Jokes extends (0, _react.Component) {
+    state = {
+        joke: {},
+        jokes: []
+    };
+    componentDidMount() {
+        fetch("https://official-joke-api.appspot.com/random_joke").then((response)=>response.json()).then((json)=>this.setState({
+                joke: json
+            }));
+    }
+    fetchJokes = ()=>{
+        fetch("https://official-joke-api.appspot.com/random_ten").then((response)=>response.json()).then((json)=>this.setState({
+                jokes: json
+            }));
+    };
+    render() {
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    children: "Higlighted Joke"
+                }, void 0, false, {
+                    fileName: "src/components/Jokes.js",
+                    lineNumber: 24,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Joke, {
+                    joke: this.state.joke
+                }, void 0, false, {
+                    fileName: "src/components/Jokes.js",
+                    lineNumber: 25,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                    children: "Higlighted Joke"
+                }, void 0, false, {
+                    fileName: "src/components/Jokes.js",
+                    lineNumber: 26,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    onClick: this.fetchJokes,
+                    children: "Click me!"
+                }, void 0, false, {
+                    fileName: "src/components/Jokes.js",
+                    lineNumber: 27,
+                    columnNumber: 17
+                }, this),
+                this.state.jokes.map((joke)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Joke, {
+                        joke: joke
+                    }, joke.id, false, {
+                        fileName: "src/components/Jokes.js",
+                        lineNumber: 28,
+                        columnNumber: 48
+                    }, this))
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Jokes.js",
+            lineNumber: 23,
+            columnNumber: 13
+        }, this);
+    }
+}
+exports.default = Jokes;
+var _c;
+$RefreshReg$(_c, "Joke");
+
+  $parcel$ReactRefreshHelpers$40f0.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
