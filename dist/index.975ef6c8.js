@@ -27300,7 +27300,7 @@ exports.default = App;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"16pwG","./SocialProfiles":"1RVkN","./Title":"6wotK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/profile.png":"Ubjjs"}],"16pwG":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"16pwG","./SocialProfiles":"1RVkN","./Title":"6wotK","../assets/profile.png":"Ubjjs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"16pwG":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ec2f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27314,93 +27314,90 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _projects = require("../data/projects");
 var _projectsDefault = parcelHelpers.interopDefault(_projects);
-class Project extends (0, _react.Component) {
-    render() {
-        const { title, image, description, link } = this.props.project;
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            style: {
-                display: "inline-block",
-                width: 300,
-                margin: 10
-            },
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                    children: title
-                }, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 12,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: image,
-                    alt: "profile",
-                    style: {
-                        width: 300,
-                        height: 120
-                    }
-                }, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 13,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: description
-                }, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 14,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    href: link,
-                    children: link
-                }, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 15,
-                    columnNumber: 17
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/Projects.js",
-            lineNumber: 11,
-            columnNumber: 13
-        }, this);
-    }
-}
-class Projects extends (0, _react.Component) {
-    render() {
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "Higlighted Projects"
-                }, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 25,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    children: (0, _projectsDefault.default).map((PROJECT)=>{
-                        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Project, {
-                            project: PROJECT
-                        }, PROJECT.id, false, {
-                            fileName: "src/components/Projects.js",
-                            lineNumber: 30,
-                            columnNumber: 33
-                        }, this);
-                    })
-                }, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 26,
-                    columnNumber: 17
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/Projects.js",
-            lineNumber: 24,
-            columnNumber: 13
-        }, this);
-    }
-}
+const Project = (props)=>{
+    const { title, image, description, link } = props.project;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        style: {
+            display: "inline-block",
+            width: 300,
+            margin: 10
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: title
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 10,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: image,
+                alt: "profile",
+                style: {
+                    width: 300,
+                    height: 120
+                }
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 11,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: description
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 12,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: link,
+                children: link
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 13,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Projects.js",
+        lineNumber: 9,
+        columnNumber: 9
+    }, undefined);
+};
+_c = Project;
+const Projects = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "Higlighted Projects"
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 20,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: (0, _projectsDefault.default).map((PROJECT)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Project, {
+                        project: PROJECT
+                    }, PROJECT.id, false, {
+                        fileName: "src/components/Projects.js",
+                        lineNumber: 24,
+                        columnNumber: 21
+                    }, undefined))
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 21,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Projects.js",
+        lineNumber: 19,
+        columnNumber: 5
+    }, undefined);
+_c1 = Projects;
 exports.default = Projects;
+var _c, _c1;
+$RefreshReg$(_c, "Project");
+$RefreshReg$(_c1, "Projects");
 
   $parcel$ReactRefreshHelpers$ec2f.postlude(module);
 } finally {
@@ -28131,72 +28128,69 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _socialProfiles = require("../data/socialProfiles");
 var _socialProfilesDefault = parcelHelpers.interopDefault(_socialProfiles);
-class SocialProfile extends (0, _react.Component) {
-    render() {
-        const { link, image } = this.props.socialProfile;
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: link,
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: image,
-                    alt: "social-profile",
-                    style: {
-                        width: 35,
-                        height: 35,
-                        margin: 10
-                    }
-                }, void 0, false, {
-                    fileName: "src/components/SocialProfiles.js",
-                    lineNumber: 12,
-                    columnNumber: 21
-                }, this)
+const SocialProfile = (props)=>{
+    const { link, image } = props.socialProfile;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+            href: link,
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: image,
+                alt: "social-profile",
+                style: {
+                    width: 35,
+                    height: 35,
+                    margin: 10
+                }
             }, void 0, false, {
                 fileName: "src/components/SocialProfiles.js",
-                lineNumber: 11,
+                lineNumber: 10,
                 columnNumber: 17
-            }, this)
+            }, undefined)
         }, void 0, false, {
             fileName: "src/components/SocialProfiles.js",
-            lineNumber: 10,
+            lineNumber: 9,
             columnNumber: 13
-        }, this);
-    }
-}
-class SocialProfiles extends (0, _react.Component) {
-    render() {
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "Connect with me!"
-                }, void 0, false, {
-                    fileName: "src/components/SocialProfiles.js",
-                    lineNumber: 24,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    children: (0, _socialProfilesDefault.default).map((SOCIAL_PROFILE)=>{
-                        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SocialProfile, {
-                            socialProfile: SOCIAL_PROFILE
-                        }, SOCIAL_PROFILE.id, false, {
-                            fileName: "src/components/SocialProfiles.js",
-                            lineNumber: 28,
-                            columnNumber: 36
-                        }, this);
-                    })
-                }, void 0, false, {
-                    fileName: "src/components/SocialProfiles.js",
-                    lineNumber: 25,
-                    columnNumber: 17
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/SocialProfiles.js",
-            lineNumber: 23,
-            columnNumber: 13
-        }, this);
-    }
-}
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/SocialProfiles.js",
+        lineNumber: 8,
+        columnNumber: 9
+    }, undefined);
+};
+_c = SocialProfile;
+const SocialProfiles = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "Connect with me!"
+            }, void 0, false, {
+                fileName: "src/components/SocialProfiles.js",
+                lineNumber: 18,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: (0, _socialProfilesDefault.default).map((SOCIAL_PROFILE)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SocialProfile, {
+                        socialProfile: SOCIAL_PROFILE
+                    }, SOCIAL_PROFILE.id, false, {
+                        fileName: "src/components/SocialProfiles.js",
+                        lineNumber: 22,
+                        columnNumber: 21
+                    }, undefined))
+            }, void 0, false, {
+                fileName: "src/components/SocialProfiles.js",
+                lineNumber: 19,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/SocialProfiles.js",
+        lineNumber: 17,
+        columnNumber: 5
+    }, undefined);
+_c1 = SocialProfiles;
 exports.default = SocialProfiles;
+var _c, _c1;
+$RefreshReg$(_c, "SocialProfile");
+$RefreshReg$(_c1, "SocialProfiles");
 
   $parcel$ReactRefreshHelpers$aca4.postlude(module);
 } finally {
