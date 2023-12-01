@@ -12,7 +12,7 @@
 /build
 /dist
 /.parcel-cache
-package-lock.json
+/package-lock.json
 
 # misc
 .DS_Store
