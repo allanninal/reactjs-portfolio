@@ -23,12 +23,11 @@ class Jokes extends Component {
             <div>
                 <h2>Higlighted Joke</h2>
                 <Joke joke={this.state.joke} />
-                <h3>Higlighted Joke</h3>
+                <h3>Want ten new jokes?</h3>
                 <button onClick={this.fetchJokes}>Click me!</button>
                 {this.state.jokes.map(joke => (<Joke key={joke.id} joke={joke} />))}
             </div>
         )
     }
 }
-
 export default Jokes;

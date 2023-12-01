@@ -10,10 +10,10 @@
 }
 
 body {
-  text-align: center;
   padding: 2.5%;
   font-family: RobotoCondensed;
   font-size: 20px;
+  text-align: center !important;
 }
 
 h1, h2, h3, h4, h5 {
